@@ -1,0 +1,301 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+body {
+  width: 90rem;
+  height: 50rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  justify-content: space-evenly;
+  flex-direction: column;
+  background-color: hsl(204, 43%, 93%);
+  font-size: 1.25rem;
+}
+.container {
+  width: 39.375rem;
+  height: 30rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+section {
+  width: 39.375rem;
+  height: 30rem;
+  background-color: white;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+}
+
+.head-part-info {
+  width: 33.75rem;
+  height: 8.75rem;
+  display: flex;
+  justify-content: center;
+  align-items: start;
+  flex-direction: column;
+  justify-content: space-between;
+  line-height: 25px;
+}
+.head-part-info > h1 {
+  font-size: 1.5625rem;
+  color: hsl(179, 62%, 43%);
+  font-family: "Karla", sans-serif;
+}
+.head-part-info > p:nth-child(2) {
+  color: hsl(71, 73%, 54%);
+  font-size: 1.25rem;
+  font-family: "Karla", sans-serif;
+}
+.head-part-info > p:nth-child(3) {
+  font-size: 1.125rem;
+  color: hsl(218, 22%, 67%);
+  font-family: "Karla", sans-serif;
+}
+
+article {
+  width: 39.375rem;
+  height: 15.9375rem;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+article > .main-monthly-info {
+  width: 19.6875rem;
+  height: 15.9375rem;
+  background-color: hsl(179, 62%, 43%);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+article > .main-monthly-info > .monthly-info {
+  width: 15rem;
+  height: 12.5rem;
+  display: flex;
+  justify-content: center;
+  align-items: start;
+  flex-direction: column;
+  justify-content: space-between;
+}
+article > .main-monthly-info > .monthly-info > h2 {
+  color: white;
+  font-size: 1.125rem;
+  font-family: "Karla", sans-serif;
+}
+article > .main-monthly-info > .monthly-info > p:nth-child(2) {
+  font-size: 1.875rem;
+  color: white;
+  font-family: "Karla", sans-serif;
+}
+article > .main-monthly-info > .monthly-info > p:nth-child(2) > span {
+  color: hsl(204, 43%, 93%);
+  font-size: 0.9375rem;
+  font-family: "Karla", sans-serif;
+}
+
+article > .main-monthly-info > .monthly-info > p:nth-child(3) {
+  font-size: 0.9375rem;
+  color: white;
+  font-family: "Karla", sans-serif;
+}
+
+article > .main-monthly-info > .monthly-info > button {
+  font-size: 1.125rem;
+  color: white;
+  font-family: "Karla", sans-serif;
+  width: 14.6875rem;
+  height: 3rem;
+  background-color: hsl(71, 73%, 54%);
+  border: none;
+  border-radius: 5px;
+  box-shadow: 5px 0px 10px 0px grey;
+}
+article > .main-addicional-info {
+  width: 19.6875rem;
+  height: 15.9375rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: hsl(179, 80%, 43%);
+}
+article > .main-addicional-info > .addicional-info {
+  width: 15rem;
+  height: 12.5rem;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  justify-content: space-evenly;
+}
+article > .main-addicional-info > .addicional-info > p {
+  line-height: 20px;
+  font-size: 0.9375rem;
+  color: hsl(204, 43%, 93%);
+  text-align: start;
+  font-family: "Karla", sans-serif;
+}
+
+article > .main-addicional-info > .addicional-info > h2 {
+  color: white;
+  font-size: 1.125rem;
+  font-family: "Karla", sans-serif;
+}
+footer {
+  font-family: "Karla", sans-serif;
+}
+
+@media screen and (max-width: 23.4375rem) {
+  * {
+    margin: 0;
+    padding: 0;
+  }
+  body {
+    width: 23.4375rem;
+    height: 54.375rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    justify-content: space-evenly;
+    flex-direction: column;
+    background-color: hsl(204, 43%, 93%);
+    font-size: 1.25rem;
+  }
+  .container {
+    width: 19.375rem;
+    height: 45.3125rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  section {
+    width: 19.375rem;
+    height: 17.1875rem;
+    background-color: white;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+  }
+
+  .head-part-info {
+    width: 16.875rem;
+    height: 12.5rem;
+    display: flex;
+    justify-content: center;
+    align-items: start;
+    flex-direction: column;
+    justify-content: space-between;
+    line-height: 1.5625rem;
+  }
+  .head-part-info > h1 {
+    font-size: 1.25rem;
+    color: hsl(179, 62%, 43%);
+    font-family: "Karla", sans-serif;
+  }
+  .head-part-info > p:nth-child(2) {
+    color: hsl(71, 73%, 54%);
+    font-size: 1.125rem;
+    font-family: "Karla", sans-serif;
+  }
+  .head-part-info > p:nth-child(3) {
+    font-size: 0.9375rem;
+    color: hsl(218, 22%, 67%);
+    font-family: "Karla", sans-serif;
+  }
+
+  article {
+    width: 19.375rem;
+    height: 29.0625rem;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-direction: column;
+  }
+  article > .main-monthly-info {
+    width: 19.375rem;
+    height: 14.3125rem;
+    background-color: hsl(179, 62%, 43%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  article > .main-monthly-info > .monthly-info {
+    width: 17.1875rem;
+    height: 11.875rem;
+    display: flex;
+    justify-content: center;
+    align-items: start;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+  article > .main-monthly-info > .monthly-info > h2 {
+    color: white;
+    font-size: 1.125rem;
+    font-family: "Karla", sans-serif;
+  }
+  article > .main-monthly-info > .monthly-info > p:nth-child(2) {
+    font-size: 1.875rem;
+    color: white;
+    font-family: "Karla", sans-serif;
+  }
+  article > .main-monthly-info > .monthly-info > p:nth-child(2) > span {
+    color: hsl(204, 43%, 93%);
+    font-size: 0.9375rem;
+    font-family: "Karla", sans-serif;
+  }
+
+  article > .main-monthly-info > .monthly-info > p:nth-child(3) {
+    font-size: 0.9375rem;
+    color: white;
+    font-family: "Karla", sans-serif;
+  }
+
+  article > .main-monthly-info > .monthly-info > button {
+    font-size: 1.125rem;
+    color: white;
+    font-family: "Karla", sans-serif;
+    width: 16.875rem;
+    height: 3.125rem;
+    background-color: hsl(71, 73%, 54%);
+    border: none;
+    border-radius: 5px;
+    box-shadow: 5px 0px 10px 0px grey;
+  }
+  article > .main-addicional-info {
+    width: 19.375rem;
+    height: 14.3125rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: hsl(179, 80%, 43%);
+  }
+  article > .main-addicional-info > .addicional-info {
+    width: 17.1875rem;
+    height: 11.875rem;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    justify-content: space-evenly;
+  }
+  article > .main-addicional-info > .addicional-info > p {
+    line-height: 20px;
+    font-size: 0.9375rem;
+    color: hsl(204, 43%, 93%);
+    font-family: "Karla", sans-serif;
+  }
+
+  article > .main-addicional-info > .addicional-info > h2 {
+    color: white;
+    font-size: 1.125rem;
+    font-family: "Karla", sans-serif;
+  }
+  footer {
+    font-family: "Karla", sans-serif;
+    font-size: 18px;
+  }
+}
